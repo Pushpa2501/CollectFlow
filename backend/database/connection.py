@@ -1,17 +1,31 @@
 
+import os
 from pathlib import Path
 
 from sqlalchemy import create_engine, event
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
 
+
 # Project root directory
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-# SQLite database location
+# Default SQLite database location
 DATABASE_DIR = BASE_DIR / "data"
 DATABASE_DIR.mkdir(parents=True, exist_ok=True)
 
-DATABASE_PATH = DATABASE_DIR / "collectflow.db"
+DEFAULT_DATABASE_PATH = DATABASE_DIR / "collectflow.db"
+
+# Optional override for isolated reproducibility tests.
+# Existing behavior remains unchanged when the variable is absent.
+database_override = os.environ.get("COLLECTFLOW_DATABASE_PATH")
+
+DATABASE_PATH = (
+    Path(database_override).expanduser().resolve()
+    if database_override
+    else DEFAULT_DATABASE_PATH
+)
+
+DATABASE_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 DATABASE_URL = f"sqlite:///{DATABASE_PATH.as_posix()}"
 

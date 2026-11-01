@@ -159,3 +159,43 @@ The SQLite database is excluded from version control. These artifacts document t
 AI assistance was used during implementation, debugging, test development, and documentation. Generated suggestions were reviewed and tested using local Python commands and Pytest.
 
 Development decisions and verification activities are documented in `prompts/ai_prompt_history.md`.
+
+## Data Dictionary and Schema
+
+The database schema is documented in
+[`docs/data_dictionary.md`](docs/data_dictionary.md).
+
+The data dictionary covers all 10 entities, including:
+
+- Column names and SQL data types
+- Required and optional fields
+- Primary-key relationships
+- Foreign-key references
+- Schema conventions and validation limitations
+
+Business rules that are not enforced by database constraints
+are documented separately from the schema.
+
+## Customer Generation Reproducibility
+
+Customer generation was independently tested using two
+fresh SQLite databases:
+
+- `data/repro_test_1.db`
+- `data/repro_test_2.db`
+
+Both runs used:
+
+- Random seed: `42`
+- Generated customers: `100`
+- Fixed reference date: October 31, 2026
+
+Both datasets produced the same SHA-256 checksum
+when customer records were serialized in customer-ID order:
+
+`54935fc968f62e6e8d2e68e395c5d60cd725a0758a399a8a53c1c4d4aab049fe`
+
+**Result: PASS — Customer generation is reproducible.**
+
+This result applies only to customer generation.
+Full end-to-end dataset reproducibility has not yet been verified.
