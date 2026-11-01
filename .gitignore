@@ -1,5 +1,5 @@
 
-# Virtual environment
+# Virtual environments
 .venv/
 venv/
 
@@ -14,16 +14,29 @@ __pycache__/
 !.env.example
 *.key
 
-# Local databases
+# Local SQLite databases and backups
 *.db
 *.sqlite
 *.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
 
-# Generated datasets and reports
+# Generated bulk datasets
 data/generated/*
-data/ground_truth/*
-results/validation/*
-results/evaluation/*
+
+# Keep ground-truth evaluation files
+!data/ground_truth/
+!data/ground_truth/*.csv
+
+# Keep validation and evaluation reports
+!results/validation/
+!results/validation/*.csv
+!results/validation/*.json
+
+!results/evaluation/
+!results/evaluation/*.json
+!results/evaluation/*.csv
 
 # Preserve directory structure
 !**/.gitkeep

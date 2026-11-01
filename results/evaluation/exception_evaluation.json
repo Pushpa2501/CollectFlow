@@ -1,0 +1,225 @@
+{
+  "total_records": 35,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "confusion_matrix": {
+    "TP": 25,
+    "FP": 0,
+    "FN": 0,
+    "TN": 10
+  },
+  "details": [
+    {
+      "scenario_id": "CLEAN001",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN002",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN003",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN004",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN005",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN006",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN007",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN008",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN009",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "CLEAN010",
+      "expected": "NONE",
+      "predicted": "NONE",
+      "correct": true
+    },
+    {
+      "scenario_id": "PAID_OFF_IN_COLLECTIONS_001",
+      "expected": "PAID_OFF_IN_COLLECTIONS",
+      "predicted": "PAID_OFF_IN_COLLECTIONS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PAID_OFF_IN_COLLECTIONS_002",
+      "expected": "PAID_OFF_IN_COLLECTIONS",
+      "predicted": "PAID_OFF_IN_COLLECTIONS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PAID_OFF_IN_COLLECTIONS_003",
+      "expected": "PAID_OFF_IN_COLLECTIONS",
+      "predicted": "PAID_OFF_IN_COLLECTIONS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PAID_OFF_IN_COLLECTIONS_004",
+      "expected": "PAID_OFF_IN_COLLECTIONS",
+      "predicted": "PAID_OFF_IN_COLLECTIONS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PAID_OFF_IN_COLLECTIONS_005",
+      "expected": "PAID_OFF_IN_COLLECTIONS",
+      "predicted": "PAID_OFF_IN_COLLECTIONS",
+      "correct": true
+    },
+    {
+      "scenario_id": "OUT_OF_HOURS_CONTACT_001",
+      "expected": "OUT_OF_HOURS_CONTACT",
+      "predicted": "OUT_OF_HOURS_CONTACT",
+      "correct": true
+    },
+    {
+      "scenario_id": "OUT_OF_HOURS_CONTACT_002",
+      "expected": "OUT_OF_HOURS_CONTACT",
+      "predicted": "OUT_OF_HOURS_CONTACT",
+      "correct": true
+    },
+    {
+      "scenario_id": "OUT_OF_HOURS_CONTACT_003",
+      "expected": "OUT_OF_HOURS_CONTACT",
+      "predicted": "OUT_OF_HOURS_CONTACT",
+      "correct": true
+    },
+    {
+      "scenario_id": "OUT_OF_HOURS_CONTACT_004",
+      "expected": "OUT_OF_HOURS_CONTACT",
+      "predicted": "OUT_OF_HOURS_CONTACT",
+      "correct": true
+    },
+    {
+      "scenario_id": "OUT_OF_HOURS_CONTACT_005",
+      "expected": "OUT_OF_HOURS_CONTACT",
+      "predicted": "OUT_OF_HOURS_CONTACT",
+      "correct": true
+    },
+    {
+      "scenario_id": "WRONG_PAYMENT_ALLOCATION_001",
+      "expected": "WRONG_PAYMENT_ALLOCATION",
+      "predicted": "WRONG_PAYMENT_ALLOCATION",
+      "correct": true
+    },
+    {
+      "scenario_id": "WRONG_PAYMENT_ALLOCATION_002",
+      "expected": "WRONG_PAYMENT_ALLOCATION",
+      "predicted": "WRONG_PAYMENT_ALLOCATION",
+      "correct": true
+    },
+    {
+      "scenario_id": "WRONG_PAYMENT_ALLOCATION_003",
+      "expected": "WRONG_PAYMENT_ALLOCATION",
+      "predicted": "WRONG_PAYMENT_ALLOCATION",
+      "correct": true
+    },
+    {
+      "scenario_id": "WRONG_PAYMENT_ALLOCATION_004",
+      "expected": "WRONG_PAYMENT_ALLOCATION",
+      "predicted": "WRONG_PAYMENT_ALLOCATION",
+      "correct": true
+    },
+    {
+      "scenario_id": "WRONG_PAYMENT_ALLOCATION_005",
+      "expected": "WRONG_PAYMENT_ALLOCATION",
+      "predicted": "WRONG_PAYMENT_ALLOCATION",
+      "correct": true
+    },
+    {
+      "scenario_id": "PROMISE_EXCEEDS_ARREARS_001",
+      "expected": "PROMISE_EXCEEDS_ARREARS",
+      "predicted": "PROMISE_EXCEEDS_ARREARS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PROMISE_EXCEEDS_ARREARS_002",
+      "expected": "PROMISE_EXCEEDS_ARREARS",
+      "predicted": "PROMISE_EXCEEDS_ARREARS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PROMISE_EXCEEDS_ARREARS_003",
+      "expected": "PROMISE_EXCEEDS_ARREARS",
+      "predicted": "PROMISE_EXCEEDS_ARREARS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PROMISE_EXCEEDS_ARREARS_004",
+      "expected": "PROMISE_EXCEEDS_ARREARS",
+      "predicted": "PROMISE_EXCEEDS_ARREARS",
+      "correct": true
+    },
+    {
+      "scenario_id": "PROMISE_EXCEEDS_ARREARS_005",
+      "expected": "PROMISE_EXCEEDS_ARREARS",
+      "predicted": "PROMISE_EXCEEDS_ARREARS",
+      "correct": true
+    },
+    {
+      "scenario_id": "DISPUTED_DEBT_CONFIRMED_001",
+      "expected": "DISPUTED_DEBT_CONFIRMED",
+      "predicted": "DISPUTED_DEBT_CONFIRMED",
+      "correct": true
+    },
+    {
+      "scenario_id": "DISPUTED_DEBT_CONFIRMED_002",
+      "expected": "DISPUTED_DEBT_CONFIRMED",
+      "predicted": "DISPUTED_DEBT_CONFIRMED",
+      "correct": true
+    },
+    {
+      "scenario_id": "DISPUTED_DEBT_CONFIRMED_003",
+      "expected": "DISPUTED_DEBT_CONFIRMED",
+      "predicted": "DISPUTED_DEBT_CONFIRMED",
+      "correct": true
+    },
+    {
+      "scenario_id": "DISPUTED_DEBT_CONFIRMED_004",
+      "expected": "DISPUTED_DEBT_CONFIRMED",
+      "predicted": "DISPUTED_DEBT_CONFIRMED",
+      "correct": true
+    },
+    {
+      "scenario_id": "DISPUTED_DEBT_CONFIRMED_005",
+      "expected": "DISPUTED_DEBT_CONFIRMED",
+      "predicted": "DISPUTED_DEBT_CONFIRMED",
+      "correct": true
+    }
+  ]
+}
