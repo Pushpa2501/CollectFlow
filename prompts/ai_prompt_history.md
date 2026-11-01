@@ -110,3 +110,23 @@ terminal-output inspection, debugging and test verification.
 This document does not claim that every generated suggestion
 was independently verified or that all limitations have
 been resolved.
+
+## 10. AI Tool and Prompt-History Disclosure
+
+ChatGPT (OpenAI) was used during the development of CollectFlow
+for planning, code suggestions, debugging, testing guidance,
+documentation, and submission preparation.
+
+This file is a retrospective development summary and is not
+a complete verbatim export of all prompts submitted during
+the project.
+
+The development process involved multiple iterative conversations.
+A complete consolidated prompt transcript has not been included
+in this repository.
+
+Any available original conversation exports should be retained
+and supplied separately if requested by the evaluators.
+
+No reconstructed or paraphrased prompt is represented here
+as an exact historical prompt.
