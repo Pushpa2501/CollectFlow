@@ -1,0 +1,35 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated datasets and reports
+data/generated/*
+data/ground_truth/*
+results/validation/*
+results/evaluation/*
+
+# Preserve directory structure
+!**/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
